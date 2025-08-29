@@ -1,0 +1,49 @@
+# GitHub Pages Configuration
+title: "Energy Efficiency and Sustainability in AI, HPC, and Quantum Computing"
+description: "A Workshop on Sustainable Computing Technologies"
+url: "https://yourusername.github.io"
+baseurl: "/workshop-site"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Collections
+collections:
+  speakers:
+    output: true
+    permalink: /:collection/:name/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO settings
+author: Workshop Organizing Committee
+twitter:
+  username: workshop_handle
+  card: summary
+
+# Social links
+github_username: yourusername
+email: workshop@example.com
+
+# Workshop specific settings
+workshop:
+  name: "ESAI-HPC-QC 2025"
+  full_name: "Energy Efficiency and Sustainability in AI, HPC, and Quantum Computing"
+  date: "23 September 2025"
+  location: "Kingston, Jamaica (Co-located with CARLA 2026)"
+  submission_deadline: "21 July 2025"
+  notification_date: "8 August 2025"
