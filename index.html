@@ -17,6 +17,7 @@
                 <ul class="nav-menu">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#abstracts">Abstracts</a></li>
                     <li><a href="#papers">Papers</a></li>
                     <li><a href="speakers.html">Speakers</a></li>
                     <li><a href="cfp.html">Call for Papers</a></li>
@@ -98,7 +99,7 @@
                     </div>
                     <div class="schedule-row keynote">
                         <div class="time-col">11:20 - 12:00</div>
-                        <div class="activity-col">Keynote Talk – Lubomir Riha (Europe Perspective)</div>
+                        <div class="activity-col">Keynote Talk – Lubomir Riha: <a href="#riha-abstract">A software approach for energy-efficient HPC</a></div>
                     </div>
                     <div class="schedule-row industry">
                         <div class="time-col">12:00 - 12:30</div>
@@ -137,6 +138,20 @@
                         <div class="time-col">17:30 - 17:45</div>
                         <div class="activity-col">Closing Remarks</div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="abstracts" class="section">
+            <div class="container">
+                <h2>Keynote Talk Abstracts</h2>
+                
+                <div class="abstract-item" id="riha-abstract">
+                    <h3>A software approach for energy-efficient HPC</h3>
+                    <p class="speaker-name">Lubomir Riha - IT4Innovations National Supercomputing Center</p>
+                    <p class="abstract-text">
+                        This talk will address selected aspects of software-based methodologies aimed at improving the energy efficiency of high-performance computing (HPC) infrastructures executing parallel scientific applications. Particular attention will be given to the energy-aware runtime suite MERIC, developed at IT4Innovations, which encompasses system-level monitoring and control, job-level optimization techniques, and advanced 3D visualizations of supercomputer state. Furthermore, the presentation will discuss the European perspective on the development of a holistic, energy-aware software stack.
+                    </p>
                 </div>
             </div>
         </section>
@@ -213,5 +228,46 @@
             <p>&copy; 2024 Energy Efficiency and Sustainability in AI, HPC, and Quantum Computing Workshop</p>
         </div>
     </footer>
+
+    <style>
+        .abstract-item {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            border-left: 4px solid #667eea;
+        }
+
+        .abstract-item h3 {
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+            font-size: 1.4rem;
+        }
+
+        .speaker-name {
+            color: #667eea;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+
+        .abstract-text {
+            color: #4a5568;
+            line-height: 1.7;
+            font-size: 1.05rem;
+        }
+
+        .schedule-row a {
+            color: #667eea;
+            text-decoration: none;
+            border-bottom: 1px dotted #667eea;
+        }
+
+        .schedule-row a:hover {
+            color: #5a67d8;
+            border-bottom: 1px solid #5a67d8;
+        }
+    </style>
 </body>
 </html>
