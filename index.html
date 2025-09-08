@@ -79,7 +79,7 @@
                     </div>
                     <div class="schedule-row keynote">
                         <div class="time-col">09:10 - 09:50</div>
-                        <div class="activity-col">Keynote Talk – John DeSantis (US Perspective)</div>
+                        <div class="activity-col">Keynote Talk – John DeSantis: <a href="#desantis-abstract">Observed power usage between ARM and x86 CPU's</a></div>
                     </div>
                     <div class="schedule-row technical">
                         <div class="time-col">09:50 - 10:10</div>
@@ -103,7 +103,7 @@
                     </div>
                     <div class="schedule-row industry">
                         <div class="time-col">12:10 - 12:40</div>
-                        <div class="activity-col">Industrial Keynote - IQM</div>
+                        <div class="activity-col">Industrial Keynote - Francesco Nappi (IQM): <a href="#nappi-abstract">Quantum Computing and Sustainability: Where is the Real Advantage?</a></div>
                     </div>
                     <div class="schedule-row break">
                         <div class="time-col">13:00 - 14:00</div>
@@ -115,7 +115,7 @@
                     </div>
                     <div class="schedule-row industry">
                         <div class="time-col">14:40 - 15:10</div>
-                        <div class="activity-col">Industrial Keynote - NVIDIA</div>
+                        <div class="activity-col">Industrial Keynote - Pedro Mário (NVIDIA): <a href="#mario-abstract">Next-Gen Data Center for the Age of AI Reasoning</a></div>
                     </div>
                     <div class="schedule-row industry">
                         <div class="time-col">15:10 - 15:40</div>
@@ -127,7 +127,7 @@
                     </div>
                     <div class="schedule-row keynote">
                         <div class="time-col">16:30 - 17:10</div>
-                        <div class="activity-col">Keynote Talk – Carla Osthoff (Latin America Perspective)</div>
+                        <div class="activity-col">Keynote Talk – Carla Osthoff: <a href="#osthoff-abstract">Implementing machine learning-based techniques for energy-efficient resource allocation in Supercomputing environments</a></div>
                     </div>
                     <div class="schedule-row panel">
                         <div class="time-col">17:10 - 17:45</div>
@@ -146,11 +146,43 @@
             <div class="container">
                 <h2>Keynote Talk Abstracts</h2>
                 
+                <div class="abstract-item" id="desantis-abstract">
+                    <h3>Observed power usage between ARM and x86 CPU's</h3>
+                    <p class="speaker-name">John DeSantis - Texas Advanced Computing Center (TACC)</p>
+                    <p class="abstract-text">
+                        This presentation examines real-world power consumption observations from TACC's experience deploying and operating ARM-based supercomputer systems. Through direct comparison with traditional x86-based HPC systems, we present measured power usage data, performance per watt metrics, and operational insights gained from managing both architectures in production environments. The talk will cover practical considerations for system administrators, including cooling requirements, power delivery challenges, and the implications for sustainable HPC operations at scale.
+                    </p>
+                </div>
+
                 <div class="abstract-item" id="riha-abstract">
                     <h3>A software approach for energy-efficient HPC</h3>
                     <p class="speaker-name">Lubomir Riha - IT4Innovations National Supercomputing Center</p>
                     <p class="abstract-text">
                         This talk will address selected aspects of software-based methodologies aimed at improving the energy efficiency of high-performance computing (HPC) infrastructures executing parallel scientific applications. Particular attention will be given to the energy-aware runtime suite MERIC, developed at IT4Innovations, which encompasses system-level monitoring and control, job-level optimization techniques, and advanced 3D visualizations of supercomputer state. Furthermore, the presentation will discuss the European perspective on the development of a holistic, energy-aware software stack.
+                    </p>
+                </div>
+
+                <div class="abstract-item" id="mario-abstract">
+                    <h3>Next-Gen Data Center for the Age of AI Reasoning</h3>
+                    <p class="speaker-name">Pedro Mário (NVIDIA) - Solution Architect for Higher-Education and Research in Latin America</p>
+                    <p class="abstract-text">
+                        In this talk, we explore how NVIDIA's full-stack platform is revolutionizing energy efficiency in next-generation HPC datacenters through innovations spanning hardware, interconnects, cooling, and AI. At the core are the Blackwell GPU architecture and Grace ARM-based CPU, delivering exceptional performance-per-watt via heterogeneous compute and advanced power management. NVLINK chip-to-chip communication and silicon photonics drastically reduce energy overhead in data movement, while liquid-cooled systems improve thermal efficiency and datacenter sustainability. We also highlight the role of floating-point emulation with low-bit representations, enabling traditional HPC applications to maintain computational accuracy while significantly lowering power consumption. Finally, NVIDIA's NEMOTRON LLM models bring AI-driven optimization to datacenter operations, enhancing workload scheduling and predictive maintenance for smarter, greener infrastructure.
+                    </p>
+                </div>
+
+                <div class="abstract-item" id="osthoff-abstract">
+                    <h3>Implementing machine learning-based techniques for energy-efficient resource allocation in Supercomputing environments</h3>
+                    <p class="speaker-name">Carla Osthoff - National Laboratory for Scientific Computing (LNCC), Brazil</p>
+                    <p class="abstract-text">
+                        Energy consumption in High Performance Processing (HPP) systems has become an increasingly relevant challenge given the increasing computational demand and the execution of large-scale scientific applications. Factors related to resource allocation, such as the number of nodes (#N) and the number of threads per node (#T), directly impact both execution time and energy efficiency, often assessed through the Energy-Delay Product (EDP). In this presentation, we present a methodology based on the Extra Trees Regressor to recommend hardware resource allocations that minimize the EDP in parallel applications, without the need to execute the application or instrument its code.
+                    </p>
+                </div>
+
+                <div class="abstract-item" id="nappi-abstract">
+                    <h3>Quantum Computing and Sustainability: Where is the Real Advantage?</h3>
+                    <p class="speaker-name">Francesco Nappi - IQM Quantum Computers</p>
+                    <p class="abstract-text">
+                        Quantum computing is expected to revolutionize many sectors of research and industry. It is also seen as a promising path toward more sustainable computing. In this work, we compare the energy consumption of a high-performance computing center and a quantum computer, and we present use cases and algorithms that might provide real benefits in the quest for sustainable development.
                     </p>
                 </div>
             </div>
